@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jon Gano's Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./CSS/Jons-Portfolio-Style.css">
+    </head>
+
+    <!----body--->
+    <body class="Background">
+
+        <!---Navbar--->
+        <div class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">Github</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <br>
+        <br>
+
+        <!---Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/Typing.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Jon Gano's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Logic will get you from A to B. Imagination will take you everywhere.</q>
+                    <br>   -Albert Einstein
+                    <br>
+                    <q>I'm not in competition with anyone but myself. My goal is to improve myself continuously.</q>
+                    <br>   -Bill Gates 
+                    <br>
+                    <br> Welcome to my portfolio website. On it, I'll tell you a little about myself and my background.
+                    <br> Thank you for stopping by!
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="column_2">
+                <img src="images/monitor-gbf7048df3_640.jpg" alt="">
+            </div>  
+            <!--Right column-->              
+            <div class="column_1">
+                <h1>About</h1>
+                <p class="about_p">
+                    I'm a software developer that worked in the construction field for many years. On both an abstract and concrete level I've always been drawn to building.
+                    As a small business owner I enjoyed interacting with people, be it customers or crew members. I believe it is these traits that have made my
+                    career transition a very smooth and enjoyable experience.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, Java, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GITHUB section-->
+        <div class="Row" id="Github">
+            <!--left column-->
+            <div class="column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my Github profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/JonGano" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="column_2">
+                <a href="https://github.com/JonGano" target="_blank"><img src="./images/GitHubsmaller.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--contact image left column-->
+            <div class="column_2 column_tall">
+                <img src="./images/matrix-edit2.png" alt="Contact Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="column_1 column_tall">
+                <h1>Contacts</h1>
+                <form action="https://formspree.io/f/xvolzygl" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here.">
+                    <label> Message</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here.">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
